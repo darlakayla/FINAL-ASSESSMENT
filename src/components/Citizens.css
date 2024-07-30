@@ -1,0 +1,50 @@
+
+.h2{
+    font-family: cursive;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  font-family: cursive;
+  border-bottom: 1px solid #ddd;
+  padding: 9px 10px;
+}
+
+.table th {
+  text-align: center;
+  background-color: #fdf2e9;
+}
+
+.table td {
+  white-space: pre-line;
+  text-align: center;
+}
+
+.button {
+  background-color: #fdf2e9;
+  border: none;
+  font-family: cursive;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    font-family: cursive;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #fdf2e9;
+    border-radius: 4px;
+    width: 300px;
+  }
+
